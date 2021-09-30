@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans:wght@400;600&display=swap");
 .navadditional {
   height: 4rem;
 }
@@ -50,16 +51,16 @@
   --bs-dark-rgb: 67, 12, 5;
   --bs-white-rgb: 248, 241, 241;
   --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-color-rgb: 212, 111, 77;
   --bs-body-bg-rgb: 248, 241, 241;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(248, 241, 241, 0.15), rgba(248, 241, 241, 0));
-  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-family: Abel, sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #D46F4D;
   --bs-body-bg: #F8F1F1;
 }
 
@@ -1952,15 +1953,15 @@ progress {
 .table {
   --bs-table-bg: transparent;
   --bs-table-accent-bg: transparent;
-  --bs-table-striped-color: #212529;
+  --bs-table-striped-color: #D46F4D;
   --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-  --bs-table-active-color: #212529;
+  --bs-table-active-color: #D46F4D;
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-  --bs-table-hover-color: #212529;
+  --bs-table-hover-color: #D46F4D;
   --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
   width: 100%;
   margin-bottom: 1rem;
-  color: #212529;
+  color: #D46F4D;
   vertical-align: top;
   border-color: #dee2e6;
 }
@@ -2182,7 +2183,7 @@ progress {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #D46F4D;
   background-color: #F8F1F1;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -2202,7 +2203,7 @@ progress {
   cursor: pointer;
 }
 .form-control:focus {
-  color: #212529;
+  color: #D46F4D;
   background-color: #F8F1F1;
   border-color: #86b7fe;
   outline: 0;
@@ -2223,7 +2224,7 @@ progress {
   padding: 0.375rem 0.75rem;
   margin: -0.375rem -0.75rem;
   margin-inline-end: 0.75rem;
-  color: #212529;
+  color: #D46F4D;
   background-color: #e9ecef;
   pointer-events: none;
   border-color: inherit;
@@ -2245,7 +2246,7 @@ progress {
   padding: 0.375rem 0.75rem;
   margin: -0.375rem -0.75rem;
   margin-inline-end: 0.75rem;
-  color: #212529;
+  color: #D46F4D;
   background-color: #e9ecef;
   pointer-events: none;
   border-color: inherit;
@@ -2270,7 +2271,7 @@ progress {
   padding: 0.375rem 0;
   margin-bottom: 0;
   line-height: 1.5;
-  color: #212529;
+  color: #D46F4D;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -2349,7 +2350,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #D46F4D;
   background-color: #F8F1F1;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -2379,7 +2380,7 @@ textarea.form-control-lg {
 }
 .form-select:-moz-focusring {
   color: transparent;
-  text-shadow: 0 0 0 #212529;
+  text-shadow: 0 0 0 #D46F4D;
 }
 
 .form-select-sm {
@@ -2666,7 +2667,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #D46F4D;
   text-align: center;
   white-space: nowrap;
   background-color: #e9ecef;
@@ -2893,9 +2894,10 @@ textarea.form-control-lg {
 
 .btn {
   display: inline-block;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #D46F4D;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -2914,7 +2916,7 @@ textarea.form-control-lg {
   }
 }
 .btn:hover {
-  color: #212529;
+  color: #D46F4D;
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
@@ -3458,7 +3460,7 @@ textarea.form-control-lg {
   padding: 0.5rem 0;
   margin: 0;
   font-size: 1rem;
-  color: #212529;
+  color: #D46F4D;
   text-align: left;
   list-style: none;
   background-color: #F8F1F1;
@@ -4568,7 +4570,7 @@ textarea.form-control-lg {
   width: 100%;
   padding: 1rem 1.25rem;
   font-size: 1rem;
-  color: #212529;
+  color: #D46F4D;
   text-align: left;
   background-color: #F8F1F1;
   border: 0;
@@ -4596,7 +4598,7 @@ textarea.form-control-lg {
   height: 1.25rem;
   margin-left: auto;
   content: "";
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23D46F4D'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-size: 1.25rem;
   transition: transform 0.2s ease-in-out;
@@ -4974,7 +4976,7 @@ textarea.form-control-lg {
   background-color: #f8f9fa;
 }
 .list-group-item-action:active {
-  color: #212529;
+  color: #D46F4D;
   background-color: #e9ecef;
 }
 
@@ -5645,7 +5647,7 @@ textarea.form-control-lg {
   z-index: 1080;
   display: block;
   margin: 0;
-  font-family: var(--bs-font-sans-serif);
+  font-family: "Abel", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5747,7 +5749,7 @@ textarea.form-control-lg {
   z-index: 1070;
   display: block;
   max-width: 276px;
-  font-family: var(--bs-font-sans-serif);
+  font-family: "Abel", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5867,7 +5869,7 @@ textarea.form-control-lg {
 
 .popover-body {
   padding: 1rem 1rem;
-  color: #212529;
+  color: #D46F4D;
 }
 
 .carousel {
