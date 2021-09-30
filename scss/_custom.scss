@@ -1,0 +1,17 @@
+// IMPORT BOOTSTRAP 5
+$white : #F8F1F1;
+$dark_blue: #00353F;
+$light_blue : #08C5D1;
+$yellow : #FFBF66;
+$orange : #D46F4D;
+$dark_brown : #430C05;
+
+.navadditional{
+    height: 4rem;
+}
+
+$light : $white;
+$dark: $dark_brown;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

@@ -1,0 +1,27 @@
+{
+  "name": "platyplay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yovador/platyplay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yovador/platyplay/issues"
+  },
+  "homepage": "https://github.com/Yovador/platyplay#readme",
+  "dependencies": {
+    "autoprefixer": "^10.3.6",
+    "bootstrap": "^5.1.1",
+    "postcss-cli": "^9.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.42.1"
+  }
+}
