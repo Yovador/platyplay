@@ -11,142 +11,206 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow navadditional sticky-top py-5 container-fluid">
+    <nav id="nav"
+        class="navbar navbar-expand-lg navbar-light bg-light shadow navadditional sticky-top py-5 container-fluid">
 
-        <div class="m-3" > <img  src="./img/HorizontalLogo.svg" alt="Logo PlatyPlay"> </div>
+        <script>let navHeight = document.getElementById('nav').getBoundingClientRect().height</script>
+
+        <button class="btn m-3" onClick="ScrollToOffset(document.getElementById('home'), navHeight)"> <img
+                src="./img/HorizontalLogo.svg" alt="Logo PlatyPlay"> </button>
 
         <div class="container-fluid col-7">
-            <button class = "btn col-3 ">
+            <button class="btn col-3 " onClick="ScrollToOffset(document.getElementById('usdesc'), navHeight)">
                 Qui sommes nous ?
             </button>
-    
-            <button class = "btn col-3">
+
+            <button class="btn col-3" onClick="ScrollToOffset(document.getElementById('projects'), navHeight)">
                 Nos projets
             </button>
-    
-            <button class = "btn col-3">
+
+            <button class="btn col-3" onClick="ScrollToOffset(document.getElementById('skills'), navHeight)">
                 Nos compétences
             </button>
-    
-            <button class = "btn col-3">
+
+            <button class="btn col-3" onClick="ScrollToOffset(document.getElementById('contacts'), navHeight)">
                 Nous contacter
             </button>
         </div>
 
     </nav>
-
-    <h1>
-
-        Un studio de Game Design étudiant, spécialisé dans la VR et les dispostifs Haptiques
-
-    </h1>
-
-    <div>
-
-        <h2>Qui sommes nous ?</h2>
-
-        <img src="" alt="">
-
-        <div>
-            PlatyPlay Studio est un studio de Game Design indépendant, d’étudiants en licence professionnelle MIAMI de
-            Tarbes. Nous avons pour objectif de découvrir la réalité virtuelle, augmentée et mixte en apprenant des
-            nouvelles technologies (casques VR, veste haptiques et tout autres nouvelles technologies).
-            <ul>
-                Notre équipe est composée de 5 personnes :
-                <li>
-                    Yoann BOUQUEY : développeur
-                </li>
-
-                <li>
-                    Gurvann MAZIN : audiovisuel
-                </li>
-
-                <li>
-                    Ortiz Gongora Erick : designer
-                </li>
-
-                <li>
-                    Emilie SARTRAND : développeuse
-                </li>
-
-                <li>
-                    Théo BAREILLES : développeur
-                </li>
-            </ul>
-            Nous sommes un groupe de cinq étudiants venant de tout horizon réunis autour de mêmes passions.
+    <div id="home" class="w-100 home">
+        <div class="backgroundImg home d-flex  flex-column justify-content-center">
+            <img class="logohome" src="./img/logoOriginal.svg" alt="Logo PlatyPlay" />
+            <h1 class="text-center p-5 font-abel h3 text-light">
+                Un studio de Game Design étudiant, spécialisé dans la VR et les dispostifs Haptiques
+            </h1>
         </div>
-
     </div>
 
-    <div>
+    <div class="container py-5">
 
-        <h2>Nos projets</h2>
-
-        <img src="" alt="">
-
-        <h3>Collaboration avec Fan4All</h3>
-
-        <div>
-            Dans le cadre de notre projet tutoré, nous travaillons en collaboration avec l’association Fan4All, une
-            association qui souhaite “Donner la possibilité aux pilotes sourds ou présentant des difficultés d’élocution
-            de voler dans les espaces aériens contrôlés” - (https://fans4all.org/).
-            Notre objectif sur ce projet est de voir comment transmettre des informations à des pilotes HSI (hearing and
-            speaking Impaired), pilotes en situation de surdité (quelle soit permanante ou ponctuelle), via un
-            équipement haptique.
+        <div id="usdesc" class="my-5 py-5 ">
+            <div class="border-top border-success border-1"></div>
         </div>
 
-    </div>
 
-    <div>
+        <div class="row my-5">
 
-        <h2>Nos compétences </h2>
+            <h2 class="text-secondary my-5 col-3 font-josefin font-weight-bold border-success border-bottom border-4">
+                Qui sommes nous ?</h2>
+            <div class="d-flex my-5">
+                <img class="col-5 img-fluid" src="" alt="Photo de Groupe">
+                <div class="col-1"></div>
+                <div class="col-6 text-dark">
+                    PlatyPlay Studio est un studio de Game Design indépendant, d’étudiants en licence professionnelle
+                    MIAMI
+                    de
+                    Tarbes. Nous avons pour objectif de découvrir la réalité virtuelle, augmentée et mixte en apprenant
+                    des
+                    nouvelles technologies (casques VR, veste haptiques et tout autres nouvelles technologies).<br>
+                    Notre équipe est composée de 5 personnes :
+                    <ul>
+                        <li class="my-3">
+                            Yoann BOUQUEY : développeur
+                        </li>
 
+                        <li class="my-3">
+                            Gurvann MAZIN : audiovisuel
+                        </li>
 
-        <div>
-            <img src="" alt="">
+                        <li class="my-3">
+                            Ortiz Gongora Erick : designer
+                        </li>
 
-            <h3>Polyvalents</h3>
+                        <li class="my-3">
+                            Emilie SARTRAND : développeuse
+                        </li>
 
-            <div>
-                Comme nous sommes étudiants nous apprenons beaucoup chaque jour, la polyvalence nous décrit donc assez
-                bien. Venant de plusieurs formations différentes nous pouvons dire que nous apprenons les uns des
-                autres.
+                        <li>
+                            Théo BAREILLES : développeur
+                        </li>
+                    </ul>
+                    Nous sommes un groupe de cinq étudiants venant de tout horizon réunis autour de mêmes passions.
+                </div>
             </div>
+
+
+
+        </div>
+
+        <div id="projects" class="my-5 py-5 ">
+            <div class="border-top border-success border-1"></div>
         </div>
 
 
-        <div>
-            <img src="" alt="">
+        <div class="row my-5">
 
-            <h3>Investis</h3>
+            <h2 class="text-secondary my-5 col-2 font-josefin font-weight-bold border-success border-bottom border-4">
+                Nos projets</h2>
 
-            <div>
-                Nous sommes une équipe de passionnés ce qui nous rend très investis dans notre travail. Nous cherchons à
-                comprendre les nouvelles technologies afin de les utiliser de différentes manières dans le jeux vidéos
-                et autres milieux. </div>
-        </div>
+            <div class="my-4 d-flex">
+                <div class=" my-3 col-6">
+                    <h3 class=" my-5 text-secondary font-josefin">Collaboration avec Fan4All</h3>
+
+                    <div class="my-5">
+                        Dans le cadre de notre projet tutoré, nous travaillons en collaboration avec l’association
+                        Fan4All, une
+                        association qui souhaite “Donner la possibilité aux pilotes sourds ou présentant des difficultés
+                        d’élocution
+                        de voler dans les espaces aériens contrôlés” - (https://fans4all.org/).
+                        Notre objectif sur ce projet est de voir comment transmettre des informations à des pilotes HSI
+                        (hearing
+                        and
+                        speaking Impaired), pilotes en situation de surdité (quelle soit permanante ou ponctuelle), via
+                        un
+                        équipement haptique.
+                    </div>
+                </div>
+
+                <div class="col-1"></div>
+
+                <img class="col-5 my-4" src="" alt="Image d'illustration">
 
 
-        <div>
-            <img src="" alt="">
 
-            <h3>Créatifs</h3>
-
-            <div>
-                Nous travaillons en groupes et confrontons souvent nos idées afin de faire preuve d’une créativité
-                collective. Les idées des uns agrémentes celles des autres.
             </div>
+
+        </div>
+
+        <div id="skills" class="my-5 py-5 ">
+            <div class="border-top border-success border-1"></div>
+        </div>
+
+
+        <div class="row">
+
+            <h2 class="my-5 text-secondary col-3 font-josefin font-weight-bold border-success border-bottom border-4">
+                Nos compétences </h2>
+
+            <div class="d-flex p-4">
+                <div class="col-md m-5 d-flex flex-column">
+                    <img class="icon justify-content-center" src="./img/couteausuisse.svg" alt="">
+
+                    <h3 class="text-secondary text-center font-josefin my-5">Polyvalents</h3>
+
+                    <div class="text-dark font-abel">
+                        Comme nous sommes étudiants nous apprenons beaucoup chaque jour, la polyvalence nous décrit donc
+                        assez
+                        bien. Venant de plusieurs formations différentes nous pouvons dire que nous apprenons les uns
+                        des
+                        autres.
+                    </div>
+                </div>
+
+
+                <div class="col-md m-5 d-flex flex-column">
+
+                    <img class="icon justify-content-center" src="./img/handshake.svg" alt="">
+
+                    <h3 class="text-secondary text-center  my-5 font-josefin">Investis</h3>
+
+                    <div class="text-dark font-abel">
+                        Nous sommes une équipe de passionnés ce qui nous rend très investis dans notre travail. Nous
+                        cherchons à
+                        comprendre les nouvelles technologies afin de les utiliser de différentes manières dans le jeux
+                        vidéos
+                        et autres milieux. 
+                    </div>
+
+                </div>
+
+
+                <div class="col-md m-5 d-flex flex-column">
+                    <img class="icon justify-content-center" src="./img/lamp.svg" alt="">
+
+                    <h3 class="text-secondary text-center font-josefin  my-5">Créatifs</h3>
+
+                    <div class="text-dark font-abel">
+                        Nous travaillons en groupes et confrontons souvent nos idées afin de faire preuve d’une
+                        créativité
+                        collective. Les idées des uns agrémentes celles des autres.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="contacts" class="my-5 py-5 ">
+            <div class="border-top border-success border-1"></div>
+        </div>
+
+        <div class="row">
+
+            <h2 class="my-5 text-secondary col-3 font-josefin font-weight-bold border-success border-bottom border-4">Nous
+                contacter</h2>
+            <div class="my-5 d-flex justify-content-center">
+                <img class="pr-5 icon-sm" src="./img/email 1.svg" alt="">
+                <h3 class="px-5 text-secondary font-josefin">mai@mail.mail</h3>
+            </div>
+
         </div>
     </div>
 
-    <div>
-
-        <h2>Nous contacter</h2>
-
-        <img src="" alt="">
-
-        <h3>mai@mail.mail</h3>
-    </div>
 
     <footer>
         Icon by FlatIcon
@@ -158,6 +222,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
         integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
         crossorigin="anonymous"></script>
+    <script src="./js/scroll.js"></script>
     <!-- <script src="assets/js/popper.min.js"></script> -->
 </body>
 

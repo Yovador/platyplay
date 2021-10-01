@@ -1,7 +1,7 @@
 // IMPORT BOOTSTRAP 5
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans:wght@400;600&display=swap');
 
-$white : #F8F1F1;
+$mywhite : #F8F1F1;
 $dark_blue: #00353F;
 $light_blue : #08C5D1;
 $yellow : #FFBF66;
@@ -16,8 +16,54 @@ $subtitle-fontweight: 400;
     height: 4rem;
 }
 
-$light : $white;
-$dark: $dark_brown;
+.logohome{
+    height: 35vh;
+}
+
+.backgroundImg{
+    background: url('../img/homePic.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.home{
+    height:100vh; 
+    overflow: hidden;
+}
+
+.center {
+    position: relative;
+    top: -25%;
+}
+
+.font-josefin{
+    font-family: $Josefin;
+}
+
+.font-abel{
+    font-family: $Abel;
+}
+
+.icon{
+    height: 10vh;
+}
+
+.icon-sm{
+    height: 5vh;
+}
+$light : $mywhite;
+
+$theme-colors: (
+  "primary":    $yellow,
+  "secondary":  $orange,
+  "success":    $light_blue,
+  "info":       $dark_brown,
+  "light":      $mywhite,
+  "dark":       $dark_blue
+) ;
+
 
 $font-family-base : $Abel;
 $btn-font-family: $Josefin;
